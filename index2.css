@@ -1,0 +1,30 @@
+div {
+  width: 250px;
+  height: 50px;
+  background: black;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+button {
+  width: 100px;
+  display: block;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 30px;
+  padding: 5px 20px;
+  border: 2px solid white;
+  color: white;
+  user-select: none;
+  transition: 0.2s ease;
+}
+
+button:nth-child(3) {
+  visibility: hidden;
+  position: absolute;
+}
